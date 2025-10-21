@@ -1,0 +1,61 @@
+.elementtoolbar-container{
+
+    position: fixed;
+    bottom: 0.2rem;
+    width: fit-content;
+    right:5%;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+    /* background-color:rgb(243, 243, 243); */
+    min-height: 70px;
+    /* box-shadow: 1px 2px 3px 3px white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    padding: 0px 40px 0px 40px;
+    background: rgb(149, 81, 81);
+}
+
+.elementtoolbar-container img{
+    position: relative;
+    z-index: 3;
+}
+
+.elementtoolbar-container ::before {
+    content: "";
+    background: linear-gradient(130deg, #ef7722, #c40c3a, #3ba6ae);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.elementtoolbar-container ::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 2;
+    border-radius: 8px;
+}
+
+.elementtoolbar-container img{
+    max-height: 40px;
+    width: 40px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.elementtoolbar-container img:hover{
+    padding: 10px;
+    background-color: rgb(220, 220, 220);
+
+}

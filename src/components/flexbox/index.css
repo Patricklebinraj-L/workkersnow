@@ -1,0 +1,40 @@
+
+.flexbox-container{
+
+
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    max-height: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(240 240 240);
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+    color: rgb(131, 131, 131);
+
+}
+
+.flexbox-container::-webkit-scrollbar{
+    width: 5px;
+}
+
+.flexbox-title{
+
+    margin-top: 0px;
+    background-color: #129b72;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    margin-top: 1%;
+
+}

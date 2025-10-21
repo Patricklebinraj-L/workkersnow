@@ -1,0 +1,40 @@
+.sb-container{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.sb-container input{
+
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 7px;
+    font-size: 18px;
+    
+}
+
+.sb-container button{
+
+    width: fit-content;
+    height: fit-content;
+    padding: 17px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid transparent;
+    outline:none;
+    
+}
+
+.sb-container button:hover{
+    padding: 18px;
+}
+
+.sb-container input:focus{
+    outline: none;
+    border: 3px solid cadetblue;
+}

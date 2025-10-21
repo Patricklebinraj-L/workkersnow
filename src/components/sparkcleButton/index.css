@@ -1,0 +1,14 @@
+.sparkle-button{
+
+    width: fit-content;
+    height: fit-content;
+    padding: 17px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid transparent;
+    outline:none;
+
+}
