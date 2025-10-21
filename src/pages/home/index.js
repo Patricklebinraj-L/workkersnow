@@ -132,7 +132,13 @@ const Home = (props) => {
                                 color="secondary"
                                 size="large"
                                 href="/signup"
-                                sx={{ fontWeight: 700 }}
+                                sx={{
+                                    fontWeight: 700,
+                                    "&:hover": {
+                                        backgroundColor: "#4a6fc8", // Lighter shade of #2249ab
+                                        color: "#fff"
+                                    }
+                                }}
                             >
                                 Get Started
                             </Button>
@@ -200,7 +206,18 @@ const Home = (props) => {
                                     </Box>
                                 </CardContent>
                                 <CardActions sx={{ justifyContent: 'center' }}>
-                                    <Button size="small" variant="contained" color="primary">Hire</Button>
+                                    <Button
+                                        size="small"
+                                        variant="contained"
+                                        color="secondary"
+                                        sx={{
+                                            "&:hover": {
+                                                backgroundColor: "#4a6fc8" // Lighter shade of #2249ab
+                                            }
+                                        }}
+                                    >
+                                        Hire
+                                    </Button>
                                 </CardActions>
                             </Card>
                         ))}

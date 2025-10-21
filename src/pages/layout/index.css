@@ -242,8 +242,9 @@ body {
 
 .btn-login {
     background: transparent;
-    color: #0781db;
-    border: 2px solid #0781db;
+    color: #2249ab;
+    /* Updated secondary color */
+    border: 2px solid #2249ab;
     border-radius: 8px;
     padding: 8px 20px;
     font-weight: 600;
@@ -252,14 +253,16 @@ body {
 }
 
 .btn-login:hover {
-    background: #0781db;
+    background: #4a6fc8;
+    /* Lighter shade of #2249ab */
     color: white;
 }
 
 .btn-signup {
-    background: #d523a3;
+    background: #2249ab;
+    /* Updated secondary color */
     color: white;
-    border: 2px solid #d523a3;
+    border: 2px solid #2249ab;
     border-radius: 8px;
     padding: 8px 20px;
     font-weight: 600;
@@ -267,8 +270,9 @@ body {
 }
 
 .btn-signup:hover {
-    background: white;
-    color: #d523a3;
+    background: #4a6fc8;
+    /* Lighter shade of #2249ab */
+    color: white;
 }
 
 .profile-holder {

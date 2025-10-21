@@ -42,7 +42,7 @@ const Layout = (props) => {
                     main: mode === "light" ? "#0781db" : "#97d3ff",
                 },
                 secondary: {
-                    main: mode === "light" ? "#d523a3" : "#ffb6e6",
+                    main: "#2249ab", // Secondary color
                 },
                 background: {
                     default: mode === "light" ? "#f7faff" : "#181a1b",
@@ -262,7 +262,13 @@ const Layout = (props) => {
                                         variant="contained"
                                         color="secondary"
                                         href="/signup"
-                                        sx={{ fontWeight: 600, ml: 1 }}
+                                        sx={{
+                                            fontWeight: 600,
+                                            ml: 1,
+                                            "&:hover": {
+                                                backgroundColor: "#4a6fc8" // Lighter shade of #2249ab
+                                            }
+                                        }}
                                     >
                                         Signup
                                     </Button>

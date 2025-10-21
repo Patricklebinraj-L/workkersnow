@@ -1,0 +1,19 @@
+/* Hide the dark mode toggle outside the menu on smaller screens */
+@media screen and (max-width: 768px) {
+    .dark-mode-toggle {
+        display: flex;
+        /* Hide it */
+    }
+}
+
+/* Style the dark mode toggle within the menu */
+.nav-menu .nav-item .dark-mode-toggle {
+    display: flex;
+    /* Show it in the menu */
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
